@@ -1,0 +1,93 @@
+body{
+    margin-top: 30px;
+    font-family: "Azeret Mono", monospace;
+}
+/*header*/
+.navigat-ist{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.navigat-ist > h2 {
+    font-weight: bolder;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.download-btn{
+    font-weight:bold;
+    font-size: 20px;
+    height: 57px;
+    width: 244px;
+    border-radius: 5px;
+    background-color: white;
+}
+.download-btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.banner-ist{
+    margin: 30px;
+    background-image: url(/assets/Hero-bg.png);
+    height: 652px;
+    text-align: center;
+    
+   
+}
+.banner-ist > img{
+    margin-top: 30px;
+}
+.banner-ist > h2,img,p,button{
+    padding: 20px;
+}
+/*body*/
+.body-width{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.body-width > h2{
+    text-align: center;
+}
+.middle-showist{
+    padding: 30px;
+    border-radius: 30px;
+    
+}
+.middle-showtwo{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+}
+.learn-button{
+    font-weight: bold;
+    width: 171px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.jhankar-vai{
+    text-align: center;
+}
+.youtube-frem{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 30px;
+}
+.need-support{
+    background-image: url(/assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 313px;
+}
+/*footer*/
