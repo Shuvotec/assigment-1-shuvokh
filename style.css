@@ -31,7 +31,7 @@ body{
 }
 .banner-ist{
     margin: 30px;
-    background-image: url(./assets/Hero-bg.png);
+    background-image: url("./assets/Hero-bg.png");
     height: 652px;
     text-align: center;
     
@@ -82,7 +82,7 @@ body{
     padding: 30px;
 }
 .need-support{
-    background-image: url(./assets/handshake.jpg);
+    background-image: url("./assets/handshake.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     border-radius: 10px;
